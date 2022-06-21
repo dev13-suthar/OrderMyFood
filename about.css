@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.container-fluid a:hover{
+    background-color: rgb(160, 155, 155);
+    color: azure;
+    border-radius: 24px;
+}
+
+#img1{
+    margin-top: 27px;
+    position: absolute;
+    top: 68px;
+    left: 755px;   
+}
+
+/*.headerOne{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    text-decoration: underline;
+    /*text-decoration: underline;
+    margin-top: 30px;
+    margin-left: 215px;
+    width: 15px;
+
+}*/
+.jmbtron{
+    height: 400px;
+    width: 620px;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+.footer img{ 
+    display: inline-block;
+    height: 88px;
+    width: 87px; 
+    padding: 20px; 
+}
+
+.footer img:hover{ 
+    display: inline-block;
+    height: 95px;
+    width: 97px; 
+    padding: 20px; 
+}
+.footer{
+    height: 100px;
+    width: 400px;
+    margin: auto;
+}
+.bg{
+    border: #ECB390,solid,1px;
+}
+.bg::before{
+    content: "";
+    background-color:#ECB390;
+    position: absolute;
+    height: 385px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+}
+
+.end{
+    border: 1px solid white;
+}
+.end::before{
+    content: "";
+    background-color: #FCF8E8;
+    position: absolute;
+    height: 385px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+}
+.footer h3{
+    margin-top: 30px;
+    text-align: center;
+}
+.copy img{
+    height: 35px;
+    width: 45px;
+}
+.copy p {
+    text-align: center;
+}
